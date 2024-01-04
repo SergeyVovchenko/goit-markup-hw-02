@@ -4,23 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework-1</title>
+    <title>Homework-2</title>
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- Header -->
     <header>
-        <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
+        <nav class="navigation">
+            <a href="./index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
+            <ul class="navigation-link">
                 <li><a href="">Studio</a></li>
                 <li><a href="">Portfolio</a></li>
                 <li><a href="">Contacts</a></li>
             </ul>
         </nav>
         <address>
-            <ul>
+            <ul class="address-link">
                 <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
@@ -30,14 +36,14 @@
     <main>
         <!-- Hero image -->
         <section>
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
+            <h1 class="title-h1">Effective Solutions for Your Business</h1>
+            <button type="button"><span class="button-text">Order Service</span></button>
         </section>
 
         <!-- Our advantages -->
         <section>
-            <h2>Our advantages</h2>
-            <ul>
+            <h2 class="title-h2-none">Our advantages</h2>
+            <ul class="advantages">
                 <li>
                     <h3>Strategy</h3>
                     <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.
@@ -65,8 +71,8 @@
 
         <!-- Our Team -->
         <section>
-            <h2>Our Team</h2>
-            <ul>
+            <h2 class="title-h2">Our Team</h2>
+            <ul class="our-teem">
                 <li>
                     <img src="./images/mark.jpg" alt="Photo Mark Guerrero" width="264" height="260">
                     <h3>Mark Guerrero</h3>
@@ -95,39 +101,38 @@
 
         <!-- Our Portfolio -->
         <section>
-            <h2>Our Portfolio</h2>
-            <ul>
+            <h2 class="title-h2">Our Portfolio</h2>
+            <ul class="our-portfolio">
                 <li>
-                    <img src="./images/banking-app.jpg" alt="Portfolio Banking App" width="360px" height="300px">
+                    <img src="./images/banking-app.jpg" alt="Portfolio Banking App" width="360" height="300">
                     <h3>Banking App</h3>
                     <p>App</p>
                 </li>
                 <li>
-                    <img src="./images/cashless-payment.jpg" alt="Portfolio Cashless Payment" width="360px"
-                        height="300px">
+                    <img src="./images/cashless-payment.jpg" alt="Portfolio Cashless Payment" width="360" height="300">
                     <h3>Cashless Payment</h3>
                     <p>Marketing</p>
                 </li>
                 <li>
-                    <img src="./images/meditaion-app.jpg" alt="Portfolio Meditaion App" width="360px" height="300px">
+                    <img src="./images/meditaion-app.jpg" alt="Portfolio Meditaion App" width="360" height="300">
                     <h3>Meditaion App</h3>
                     <p>App</p>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <img src="./images/taxi-service.jpg" alt="Portfolio Taxi Service" width="360px" height="300px">
+                    <img src="./images/taxi-service.jpg" alt="Portfolio Taxi Service" width="360" height="300">
                     <h3>Taxi Service</h3>
                     <p>Marketing</p>
                 </li>
                 <li>
-                    <img src="./images/screen-illustrations.jpg" alt="Portfolio Screen Illustrations" width="360px"
-                        height="300px">
+                    <img src="./images/screen-illustrations.jpg" alt="Portfolio Screen Illustrations" width="360"
+                        height="300">
                     <h3>Screen Illustrations</h3>
                     <p>Design</p>
                 </li>
                 <li>
-                    <img src="./images/meditaion-app.jpg" alt="Portfolio Online Courses" width="360px" height="300px">
+                    <img src="./images/meditaion-app.jpg" alt="Portfolio Online Courses" width="360" height="300">
                     <h3>Online Courses</h3>
                     <p>Marketing</p>
                 </li>
@@ -137,8 +142,9 @@
 
     <!-- Footer -->
     <footer>
-        <a href="./index.html">WebStudio</a>
-        <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        <a href="./index.html" class="logo-footer"><span class="logo-footer-web">Web</span>Studio</a>
+        <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing &
+            growth solutions.</p>
     </footer>
 </body>
 
