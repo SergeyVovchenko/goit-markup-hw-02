@@ -38,7 +38,11 @@ a {
     color: #404BBF;
 }
 
-.address-link a {
+.address {
+    font-style: normal;
+}
+
+.address-link {
     color: #434455;
     font-size: 16px;
     font-style: normal;
@@ -47,8 +51,8 @@ a {
     letter-spacing: 0.32px;
 }
 
-.address-link a:hover,
-.address-link a:focus {
+.address-link:hover,
+.address-link:focus {
     color: #404BBF;
 }
 
@@ -96,7 +100,7 @@ button:focus {
     display: none;
 }
 
-.advantages-h3 {
+.advantages-title {
     color: #2E2F42;
     font-size: 20px;
     font-style: normal;
@@ -119,7 +123,6 @@ button:focus {
 
 .our-teem>li {
     background-color: #FFFFFF;
-    width: 264px;
 }
 
 .title-our-team {
@@ -180,7 +183,7 @@ button:focus {
 
 .logo-footer {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -191,13 +194,6 @@ button:focus {
 
 .logo-footer-studio {
     color: #F4F4FD;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
 }
 
 .footer-text {
